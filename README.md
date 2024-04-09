@@ -20,3 +20,10 @@ User-Friendly: With React, enjoy a seamless, engaging user experience across the
 ![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/60fe60df-e65e-4f94-90db-26abb751895c)
 ![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/0fdb2bbe-79e7-4791-9620-bd337d12530f)
 ![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/3e8d7836-2a92-4c8f-a8c6-a6ff8f289fd9)
+
+DATABASE
+
+![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/33cc953a-114c-4cd0-a21e-ac6c833b8b5a)
+
+![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/174f8edb-e142-49e4-ab89-ea84c71e5868)
+
