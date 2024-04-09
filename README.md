@@ -25,5 +25,5 @@ DATABASE
 
 ![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/33cc953a-114c-4cd0-a21e-ac6c833b8b5a)
 
-![image](https://github.com/Sereth1/MostUslessNews/assets/129552184/174f8edb-e142-49e4-ab89-ea84c71e5868)
+
 
