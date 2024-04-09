@@ -1,0 +1,67 @@
+.box {
+  position: absolute;
+  width: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid white 2px;
+  text-align: center;
+  color: white;
+
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  animation-name: movingLeft;
+  animation-duration: 3s;
+}
+.box:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.inp {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  border: solid white 2px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.lab {
+  display: block;
+  margin: 20px 0 10px;
+  padding: 0;
+}
+
+.btnS,
+.gap {
+  text-align: center;
+  width: 120px;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: solid white 2px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.gap:hover,
+.btnS:hover {
+  background-color: rgba(240, 248, 255, 0.264);
+}
+
+.gap-10 {
+  margin-bottom: 20px;
+}
+@keyframes movingLeft {
+  0% {
+    opacity: 0;
+    transform: scale(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(0px);
+  }
+}

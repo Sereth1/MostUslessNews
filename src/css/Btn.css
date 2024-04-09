@@ -1,0 +1,28 @@
+.but,
+.gap1 {
+  width: 300px; 
+  height: 100px; 
+  padding: 10px 20px;
+
+  border: solid rgb(255, 255, 255) 2px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 50px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  white-space: nowrap;  
+}
+
+.gap1:hover,
+.but:hover {
+  background-color: rgba(240, 248, 255, 0.264);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 40vh; 
+}

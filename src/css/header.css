@@ -1,0 +1,40 @@
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.header {
+  font-size: 6em;
+  color: rgb(0, 0, 0);
+  background-image: radial-gradient(rgb(247, 245, 245) 70%, transparent 10%);
+  background-size: 10px 10px;
+
+  animation: blink 1s infinite;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 20vh;
+  transform: translateY(-50%);
+}
+
+.moveIt {
+  animation: enter 1.5s ease forwards;
+}

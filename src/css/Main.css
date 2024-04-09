@@ -1,0 +1,47 @@
+.txtTitle,
+.mainBody,
+.mainCtr > .mainBox > div {
+  text-align: center;
+}
+
+.mainCtr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 99vw;
+  padding-top: 0;
+}
+
+.mainBox {
+  position: relative;
+  max-width: 1400px;
+  max-height: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mainBox > div > div {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.mainBox > div {
+  margin-bottom: 20px;
+}
+.mainBorder {
+  border: solid white 2px;
+}
+.sizeT {
+  font-size: 40px;
+  font-weight: 400;
+}
+.bB {
+  border-bottom: 1px solid white;
+}

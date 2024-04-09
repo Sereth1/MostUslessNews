@@ -1,0 +1,43 @@
+.inpArt {
+  display: block;
+  width: calc(100% -1px);
+  margin: 10px auto;
+  padding: 10px;
+  border: solid white 1px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.labArt {
+  text-align: center;
+  display: block;
+  margin: 20px 0 10px;
+  padding: 0;
+}
+.box1Art {
+  border: solid 2px white;
+  width: 500px;
+  bottom: 4vh;
+}
+.btnSArt,
+.gapArt {
+  padding: 10px 100px;
+  margin: 10px;
+  border: solid white 1px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 25%;
+}
+
+.gapArt:hover,
+.btnSArt:hover {
+  background-color: rgba(240, 248, 255, 0.264);
+}
+.masterArt {
+  padding-top: 180px;
+
+  color: white;
+}
+.parentContainer {
+}
