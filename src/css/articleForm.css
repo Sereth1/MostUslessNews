@@ -1,43 +1,65 @@
-.inpArt {
-  display: block;
-  width: calc(100% -1px);
-  margin: 10px auto;
-  padding: 10px;
-  border: solid white 1px;
-  border-radius: 4px;
-  background-color: black;
-}
-
-.labArt {
-  text-align: center;
-  display: block;
-  margin: 20px 0 10px;
-  padding: 0;
-}
-.box1Art {
-  border: solid 2px white;
+.form-container {
+  padding-top: 0px;
+  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: fit-content;
+  margin-top: 60px;
+  margin-right: 10px;
   width: 500px;
-  bottom: 4vh;
-}
-.btnSArt,
-.gapArt {
-  padding: 10px 100px;
-  margin: 10px;
-  border: solid white 1px;
-  background-color: transparent;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  margin-left: 25%;
+  text-align: center;
 }
 
-.gapArt:hover,
-.btnSArt:hover {
-  background-color: rgba(240, 248, 255, 0.264);
-}
-.masterArt {
-  padding-top: 180px;
+.form {
+  width: 100%;
+  max-width: 700px; /* Adjust based on your preference */
 
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 16px;
+}
+
+.form-field textarea {
+  min-height: 20px; /* Start with a reasonable default height */
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-weight: bold;
+}
+
+.form-field input,
+.form-field textarea {
   color: white;
+  background-color: rgb(111, 111, 111);
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc; /* Example color */
+  border-radius: 4px;
+  box-sizing: border-box;
 }
-.parentContainer {
+
+.form-field textarea {
+  min-height: 50px;
+  resize: vertical;
+}
+
+.form-button {
+  margin-top: 10px;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: solid 2px white;
+  font-weight: bold;
+  width: 200px;
+}
+
+.form-button:hover {
+  background-color: #737373; /* Tailwind blue-700 */
 }

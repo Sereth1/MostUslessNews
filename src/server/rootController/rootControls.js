@@ -70,7 +70,7 @@ exports.findUserId = async (req, res) => {
 
 exports.UpdateUser = async (req, res) => {
   try {
-    const { articlesIdTitle } = req.body; 
+    const { articlesIdTitle } = req.body;
     if (!articlesIdTitle || !articlesIdTitle.id || !articlesIdTitle.title) {
       return res
         .status(400)

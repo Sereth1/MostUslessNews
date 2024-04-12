@@ -10,6 +10,7 @@ export const initialState = {
   Considerations: null,
   Body: null,
   ID: null,
+  imgArt: null,
 };
 
 export const articleFormRed = (state, action) => {

@@ -1,0 +1,83 @@
+Date : 2024-04-09 06:41:54
+Directory : c:\Users\n1ght\Desktop\register\src
+Total : 42 files,  1254 codes, 1 comments, 176 blanks, all 1431 lines
+
+Languages
++-----------------------+------------+------------+------------+------------+------------+
+| language              | files      | code       | comment    | blank      | total      |
++-----------------------+------------+------------+------------+------------+------------+
+| JavaScript            |         19 |        519 |          0 |         71 |        590 |
+| JavaScript JSX        |         13 |        444 |          1 |         66 |        511 |
+| CSS                   |          9 |        289 |          0 |         39 |        328 |
+| Environment Variables |          1 |          2 |          0 |          0 |          2 |
++-----------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |         42 |      1,254 |          1 |        176 |      1,431 |
+| app                                                                                |          3 |        108 |          0 |         14 |        122 |
+| components                                                                         |         14 |        491 |          1 |         71 |        563 |
+| components\CreateArticle                                                           |          4 |        144 |          1 |         20 |        165 |
+| components\HomePage                                                                |          2 |         39 |          0 |          7 |         46 |
+| components\Main                                                                    |          1 |         44 |          0 |          4 |         48 |
+| components\SignUpReg                                                               |          7 |        264 |          0 |         40 |        304 |
+| css                                                                                |          8 |        265 |          0 |         34 |        299 |
+| helpers                                                                            |          7 |        191 |          0 |         24 |        215 |
+| server                                                                             |          9 |        186 |          0 |         31 |        217 |
+| server (Files)                                                                     |          3 |         17 |          0 |          7 |         24 |
+| server\rootController                                                              |          1 |         95 |          0 |         10 |        105 |
+| server\routes                                                                      |          3 |         24 |          0 |          6 |         30 |
+| server\schemes                                                                     |          2 |         50 |          0 |          8 |         58 |
+| types                                                                              |          1 |         13 |          0 |          2 |         15 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+-----------------------+------------+------------+------------+------------+
+| filename                                                                           | language              | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+-----------------------+------------+------------+------------+------------+
+| c:\Users\n1ght\Desktop\register\src\app\globals.css                                | CSS                   |         24 |          0 |          5 |         29 |
+| c:\Users\n1ght\Desktop\register\src\app\layout.js                                  | JavaScript            |         14 |          0 |          4 |         18 |
+| c:\Users\n1ght\Desktop\register\src\app\page.js                                    | JavaScript            |         70 |          0 |          5 |         75 |
+| c:\Users\n1ght\Desktop\register\src\components\CreateArticle\ArticleForm.jsx       | JavaScript JSX        |         79 |          1 |          8 |         88 |
+| c:\Users\n1ght\Desktop\register\src\components\CreateArticle\UserArticles.jsx      | JavaScript JSX        |         37 |          0 |          5 |         42 |
+| c:\Users\n1ght\Desktop\register\src\components\CreateArticle\UserHomePage.jsx      | JavaScript JSX        |         14 |          0 |          4 |         18 |
+| c:\Users\n1ght\Desktop\register\src\components\CreateArticle\UserProfile.jsx       | JavaScript JSX        |         14 |          0 |          3 |         17 |
+| c:\Users\n1ght\Desktop\register\src\components\HomePage\HomePage.jsx               | JavaScript JSX        |          5 |          0 |          3 |          8 |
+| c:\Users\n1ght\Desktop\register\src\components\HomePage\Intro.jsx                  | JavaScript JSX        |         34 |          0 |          4 |         38 |
+| c:\Users\n1ght\Desktop\register\src\components\Main\Main.jsx                       | JavaScript JSX        |         44 |          0 |          4 |         48 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\Header.jsx                | JavaScript JSX        |         10 |          0 |          3 |         13 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\Login.jsx                 | JavaScript JSX        |         84 |          0 |          9 |         93 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\NavBar.jsx                | JavaScript JSX        |         69 |          0 |         16 |         85 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\NavigateToLoginButton.jsx | JavaScript JSX        |          0 |          0 |          1 |          1 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\Register.js               | JavaScript            |         47 |          0 |          5 |         52 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\SignInUp.jsx              | JavaScript JSX        |         38 |          0 |          3 |         41 |
+| c:\Users\n1ght\Desktop\register\src\components\SignUpReg\loginRegBtn.jsx           | JavaScript JSX        |         16 |          0 |          3 |         19 |
+| c:\Users\n1ght\Desktop\register\src\css\Btn.css                                    | CSS                   |         25 |          0 |          4 |         29 |
+| c:\Users\n1ght\Desktop\register\src\css\Main.css                                   | CSS                   |         42 |          0 |          6 |         48 |
+| c:\Users\n1ght\Desktop\register\src\css\Register.css                               | CSS                   |         60 |          0 |          8 |         68 |
+| c:\Users\n1ght\Desktop\register\src\css\articleForm.css                            | CSS                   |         40 |          0 |          4 |         44 |
+| c:\Users\n1ght\Desktop\register\src\css\header.css                                 | CSS                   |         36 |          0 |          5 |         41 |
+| c:\Users\n1ght\Desktop\register\src\css\navbar.css                                 | CSS                   |         24 |          0 |          3 |         27 |
+| c:\Users\n1ght\Desktop\register\src\css\text.css                                   | CSS                   |         16 |          0 |          2 |         18 |
+| c:\Users\n1ght\Desktop\register\src\css\userArticles.css                           | CSS                   |         22 |          0 |          2 |         24 |
+| c:\Users\n1ght\Desktop\register\src\helpers\articleReduser.js                      | JavaScript            |         44 |          0 |          6 |         50 |
+| c:\Users\n1ght\Desktop\register\src\helpers\creatingArticle.js                     | JavaScript            |         30 |          0 |          4 |         34 |
+| c:\Users\n1ght\Desktop\register\src\helpers\login.js                               | JavaScript            |          4 |          0 |          1 |          5 |
+| c:\Users\n1ght\Desktop\register\src\helpers\postFunction.js                        | JavaScript            |         21 |          0 |          1 |         22 |
+| c:\Users\n1ght\Desktop\register\src\helpers\pushingArtIDTitle.js                   | JavaScript            |         35 |          0 |          5 |         40 |
+| c:\Users\n1ght\Desktop\register\src\helpers\reducerReg.js                          | JavaScript            |         34 |          0 |          3 |         37 |
+| c:\Users\n1ght\Desktop\register\src\helpers\utilities.js                           | JavaScript            |         23 |          0 |          4 |         27 |
+| c:\Users\n1ght\Desktop\register\src\server\app.js                                  | JavaScript            |         12 |          0 |          5 |         17 |
+| c:\Users\n1ght\Desktop\register\src\server\dotenv.env                              | Environment Variables |          2 |          0 |          0 |          2 |
+| c:\Users\n1ght\Desktop\register\src\server\rootController\rootControls.js          | JavaScript            |         95 |          0 |         10 |        105 |
+| c:\Users\n1ght\Desktop\register\src\server\routes\articleRoute.js                  | JavaScript            |         10 |          0 |          3 |         13 |
+| c:\Users\n1ght\Desktop\register\src\server\routes\loginAuth.js                     | JavaScript            |          0 |          0 |          1 |          1 |
+| c:\Users\n1ght\Desktop\register\src\server\routes\regLogRoutes.js                  | JavaScript            |         14 |          0 |          2 |         16 |
+| c:\Users\n1ght\Desktop\register\src\server\schemes\RegisterScheme.js               | JavaScript            |         37 |          0 |          4 |         41 |
+| c:\Users\n1ght\Desktop\register\src\server\schemes\articleSheme.js                 | JavaScript            |         13 |          0 |          4 |         17 |
+| c:\Users\n1ght\Desktop\register\src\server\server.js                               | JavaScript            |          3 |          0 |          2 |          5 |
+| c:\Users\n1ght\Desktop\register\src\types\costumer.js                              | JavaScript            |         13 |          0 |          2 |         15 |
+| Total                                                                              |                       |      1,254 |          1 |        176 |      1,431 |
++------------------------------------------------------------------------------------+-----------------------+------------+------------+------------+------------+

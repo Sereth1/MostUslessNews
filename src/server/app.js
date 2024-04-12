@@ -12,5 +12,6 @@ const { mongooseConnection } = require("./rootController/rootControls");
 mongooseConnection;
 app.use(logRegRoute);
 app.use(articleRoute);
+/////////////////////////////////////////////
 
 module.exports = app;

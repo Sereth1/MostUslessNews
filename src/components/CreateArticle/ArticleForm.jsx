@@ -7,10 +7,17 @@ import { useNavigate } from "react-router-dom";
 import { updateArticlesIdTitleForUser } from "../../helpers/pushingArtIDTitle";
 
 function ArticleForm({ user, userId }) {
-  articleLabel;
-  let navigate = useNavigate();
+  const navigate = useNavigate();
   const formRef = useRef(null);
 
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const imgArt = URL.createObjectURL(file);
+
+      dispatch({ type: "imgArt", payload: imgArt });
+    }
+  };
   const [
     {
       Title,
@@ -26,10 +33,9 @@ function ArticleForm({ user, userId }) {
     dispatch,
   ] = useArticleState();
 
-  console.log(`asdadssa${ID}`);
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let articleData = {
+    const articleData = {
       Title,
       Author,
       Date,
@@ -41,47 +47,56 @@ function ArticleForm({ user, userId }) {
 
     if (user === null) {
       navigate("/login");
-    } else {
-      try {
-        ID === null
-          ? createArticle(articleData, dispatch)
-          : updateArticlesIdTitleForUser(userId, ID, ArticleTitle);
+      return;
+    }
 
-        formRef.current.reset();
-        console.log(articleData);
-      } catch (error) {
-        console.error("Failed to create and update article:", error);
-      }
+    try {
+      createArticle(articleData, dispatch);
+      ID === null && updateArticlesIdTitleForUser(userId, ID, ArticleTitle);
+
+      formRef.current.reset();
+    } catch (error) {
+      console.error("Failed to create or update article:", error);
     }
   };
 
-  const articleForm = articleLabel.map((el, i) => (
-    <React.Fragment key={i}>
-      <label className="labArt pixelated" key={el.label}>
-        {el.label}
-      </label>
-      <input
-        onChange={(e) => dispatch({ type: el.label, payload: e.target.value })}
-        className="inpArt"
-        style={i > 5 ? { height: 150 } : { height: 30 }}
-        key={i}
-      ></input>
-    </React.Fragment>
-  ));
   return (
-    <div className="parentContainer">
-      <div className="masterArt">
-        <div className="box1Art">
-          <form ref={formRef} onSubmit={handleSubmit}>
-            {articleForm}
-            <button className="btnSArt pixelated ">post</button>
-          </form>
-        </div>
-        <button></button>
-      </div>
+    <div className="form-container">
+      <form ref={formRef} onSubmit={handleSubmit} className="form">
+        {articleLabel.map((el, i) => (
+          <div className="form-field" key={el.label}>
+            <label htmlFor={el.label}>{el.label}</label>
+            {el.label === "imgArt" ? (
+              <input
+                type="file"
+                name={el.label}
+                accept="image/*" // Accept only images
+                onChange={handleFileChange} // Custom handler for file input
+              />
+            ) : el.type === "textarea" ? (
+              <textarea
+                name={el.label}
+                onChange={(e) =>
+                  dispatch({ type: el.label, payload: e.target.value })
+                }
+              ></textarea>
+            ) : (
+              <input
+                type="text"
+                name={el.label}
+                onChange={(e) =>
+                  dispatch({ type: el.label, payload: e.target.value })
+                }
+              />
+            )}
+          </div>
+        ))}
+        <button type="submit" className="form-button">
+          Post
+        </button>
+      </form>
     </div>
   );
 }
 
 export default ArticleForm;
-//
