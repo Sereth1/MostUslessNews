@@ -35,12 +35,12 @@ exports.createArticle = async (req, res) => {
   }
 };
 
-exports.getArticles = async (req, res) => {
+exports.getArticles = async (req, res, next) => {
   try {
     const docs = await NewArticle.find({});
     res.status(200).json(docs);
   } catch (err) {
-    res.status(500).send(`error`);
+    next(err);
   }
 };
 
